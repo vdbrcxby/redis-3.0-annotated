@@ -64,7 +64,7 @@ ifeq ($(uname_S),Darwin)
 	# Darwin (nothing to do)
 else
 	# All the other OSes (notably Linux)
-	FINAL_LDFLAGS+= -rdynamic
+	#FINAL_LDFLAGS+= -rdynamic
 	FINAL_LIBS+= -pthread
 endif
 endif

@@ -30,6 +30,9 @@
 
 
 #include <string.h>
+#include <sys/select.h>
+#include <sys/time.h>
+
 
 typedef struct aeApiState {
     fd_set rfds, wfds;
