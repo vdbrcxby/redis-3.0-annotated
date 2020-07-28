@@ -5,6 +5,6 @@ int main(int argc,char **argv)
 {
 	int a =1;
 
-int x =2;
-
+	int x =2;
+	int m =3;
 }
