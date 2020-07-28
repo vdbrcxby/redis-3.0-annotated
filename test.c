@@ -7,4 +7,5 @@ int main(int argc,char **argv)
 
 	int x =2;
 	int m =3;
+	int t= 0;
 }
